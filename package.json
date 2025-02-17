@@ -1,0 +1,26 @@
+{
+  "name": "wcipher-cli",
+  "version": "0.0.1",
+  "description": "A simple command-line tool for encrypting and decrypting files using wcipher.",
+  "type": "module",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "bin": {
+    "wcipher": "./dist/index.js"
+  },
+  "author": "Albert L <hkalbertl@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "wcipher": "^0.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "@types/readline-sync": "^1.4.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
