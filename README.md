@@ -19,7 +19,7 @@ pnpm add -g wcipher-cli
 The `wcipher` command follows this syntax:
 
 ```sh
-wcipher <encrypt|decrypt> <input file or directory> <output directory>
+wcipher [encrypt|decrypt] [input file or directory] [output directory]
 ```
 
 ## Encrypt a file
